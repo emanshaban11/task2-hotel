@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+  color: #444;
+  background-color: #ccc;
+  font-size: 18px;
+  font-family: Roboto;
+
+
+}
+header{
+    min-height: 100vh;
+    background-image: 
+    linear-gradient(rgba(0,0,0,.3) , rgba(0,0,0,.3)),
+    url(../images/1.jpg)
+    ;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    margin-top: 20px;
+  
+}
+.main-nav , .footer-nav , .social-nav{
+    list-style: none;
+    display: flex;
+}
+.main-nav li , .footer-nav li , .social-nav li{
+    margin: 0 15px;
+}
+.main-nav li a , .footer-nav li a , .social-nav li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.main-nav li a:hover ,.footer-nav li a:hover,
+.social-nav li a:hover
+{
+    text-decoration: underline;
+    color: midnightblue;
+}
+section{
+    padding: 80 0px;
+
+}
+.box{
+    text-align: center;
+
+}
+h2{
+    color: midnightblue;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+
+}
+hr{
+    width: 400px;
+    margin: 20px auto;
+    border: solid 3px darkgray;
+}
+.box i{
+    color: darkviolet;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.box p{
+    margin-top: 15px;
+    font-size: 18px;
+    color: midnightblue;
+}
+.services{
+    padding: 0;
+    background-color: darkgray;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.services img{
+    width: 100%;
+    padding: 10px;
+    margin-bottom:10px;
+    opacity: .8;
+    background-color: darkgray;
+    transition: 1.5s;
+    transform: scale(1);
+  
+}
+.services img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.cities img{
+    width: 100%;
+    margin-bottom: 10px;
+
+
+}
+.cities i{
+    color: darkorchid;
+}
+.cities h3 , .cities p{
+    color: midnightblue;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.booking{
+    margin-top: 30px;
+    background-color: darkgray;
+}
+.booking h1{
+    color: midnightblue;
+    
+    text-align: center;
+    margin-top: 10px;
+}
+ 
+ label{
+    color:midnightblue;
+    margin-bottom: 10px;
+}
+input[ type = text]
+input[ type = tel]
+input[ type = email]
+{
+    width: 100%;
+    padding: 10px;
+  
+    border-radius: 5px;
+    border: solid 1px white;
+    outline: none;
+
+
+}
+input[ type = checkbox]{
+    margin-bottom: 10px;
+}
+input[ type = submit]{
+    border-radius: 5px ;
+    background-color:white;
+    border: solid 2px darkgray;
+    color: midnightblue;
+    padding: 10 20px;
+}
+footer{
+    margin-top: 40px;
+    padding: 50 0px;
+    background-color: #222;
+   
+}
